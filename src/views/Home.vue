@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <div>新开始</div>
+    <div class="project-title">新开始</div>
+
   </div>
 </template>
 
@@ -15,3 +16,12 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="less">
+.home{
+  .project-title{
+    width: 100%;
+    height:1rem;
+  }
+}
+</style>
